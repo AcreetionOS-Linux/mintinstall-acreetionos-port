@@ -1,0 +1,1 @@
+Why: Upstream is apt/debian-only; AcreetionOS is Arch-based. This commit ports the build (PKGBUILD vs debian) and runtime (pacman vs apt) while keeping all ACREETIONOS-ARCH hunks isolated so future upstream commits can be cherry-picked with -x. README cherry-pick policy added per maintainer request. Correct repo name is mintinstall-acreetionos-port (typo acreetinos deprecated).
